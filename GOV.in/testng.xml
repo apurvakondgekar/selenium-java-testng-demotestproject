@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="FinalTest">
+    <classes>
+		
+		<class name="Final.HomePageHeader"/>
+		<class name="Final.ImageSliderAll"/>
+		<class name="Final.CategoriesFinal"/>
+		 <class name="Final.FreedomArchive"/>
+		 <class name="Final.DidyouKnow"/>
+		  <class name="Final.Stories"/>
+		  <class name="Final.MoCOrganisations"/>
+		  <class name="Final.ExternalLinks"/>
+		   <class name="Final.Partners"/>
+  	   <class name="Final.Footer"/>
+     
+     
+    </classes>
+  </test> <!-- FinalTest -->
+</suite> <!-- Suite -->
